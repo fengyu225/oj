@@ -1,0 +1,143 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2351
+
+Litmus Test
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+The pH scale measures the concentration of protons (H+) in a solution and,
+therefore, its acidity or alkalinity. The pH value of a solution is a number
+between 0 and 14; it is less than 7 if the solution is acidic, greater than 7
+if the solution is basic, and 7 if it is neutral.
+
+The formula for calculating pH is
+
+pH = -log10 [H+]
+
+where [H+] is the concentration of protons measured in moles per litre.
+
+To calculate the pH value of an acid, one has to determine the concentration
+of protons in the solution. When an acid is dissolved in water, an equilibrium
+is reached and is governed by the equation
+
+Ka = [H+] [acid ions] / [acid]
+
+where Ka is the acidity constant (known for each acid), [acid ions] is the
+concentration of the acid ions that have dissolved, and [acid] is the
+concentration of the undissolved acid. Before the acid is added, both [H+] and
+[acid ions] are assumed to be 0.
+
+For example, the acidity constant of methanoic acid is 1.6 x 10-4. Dissolving
+one mole of acid molecules results in one mole of H+ and one mole of acid
+ions. If the initial concentration of the methanoic acid is 0.1 moles/L and
+_x_ moles of acid are dissolved (per liter), then the final concentration at
+equilibrium would be 0.1 - _x_ moles/L for the acid and _x_ moles/L for H+ and
+the acid ions.
+
+**
+
+Input
+
+**
+
+The input consists of a number of test cases. Each test case contains 4
+numbers on a line: two positive floating-point numbers specifying the acidity
+constant Ka and the original concentration of the acid (in moles/liter) added
+to the water, as well as two positive integers _m_ and _n_ indicating that
+each mole of acid molecules is dissolved into _m_ moles of H+ ions and _n_
+moles of acid ions. The floating-point numbers are specified in scientific
+notation as shown below. The input is terminated with a line containing four
+zeros.
+
+**
+
+Output
+
+**
+
+For each test case, print on a line the pH value of the solution, rounded to 3
+decimal places.
+
+**
+
+This problem contains multiple test cases!
+
+**
+
+The first line of a multiple input is an integer N, then a blank line followed
+by N input blocks. Each input block is in the format indicated in the problem
+description. There is a blank line between input blocks.
+
+The output format consists of N output blocks. There is a blank line between
+output blocks.
+
+**
+
+Sample Input
+
+**
+
+1
+
+  
+1.6e-04 1.0e-01 1 1
+
+1.6e-04 1.0e-01 4 1
+
+1.5e-05 5.0e-02 1 2
+
+0 0 0 0
+
+**
+
+Sample Output
+
+**
+
+2.407
+
+2.101
+
+3.216
+
+* * *
+
+Source: **Rocky Mountain 2004**
+
+[Submit](/onlinejudge/submit.do?problemId=1327)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1327)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

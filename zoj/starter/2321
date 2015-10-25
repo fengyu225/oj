@@ -1,0 +1,147 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2321
+
+Filling Out the Team
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Over the years, the people of the great city of Pittsburgh have repeatedly
+demonstrated a collective expertise at football second to none. Recently a spy
+has discovered the true source of the city's football power-a wizard known
+only as "Myron," who is infallible at selecting the proper position at which
+each player will excel.
+
+Now that you know the source of Pittsburgh's wisdom, you are determined to
+provide your school's football team with a computer program that matches the
+wisdom of "Myron." You have consulted with the best football minds you can
+find, and they have dispensed their wisdom on the slowest speed, minimum
+weight, and minimum strength required to play each position.
+
+Position
+
+Slow.Speed
+
+Min.Weight
+
+Min.Strength
+
+Wide Receiver
+
+4.5
+
+150
+
+200
+
+Lineman
+
+6.0
+
+300
+
+500
+
+Quarterback
+
+5.0
+
+200
+
+300
+
+Using this knowledge, you will develop a program that reads in several players
+physical attributes and outputs what position(s) they are able to play.
+
+  
+
+**Input**
+
+Each line of the input file will list the attributes for one player:
+
+<speed> <weight> <strength>
+
+Each number will be a real-valued number. The file will end with a line
+reading "0 0 0".
+
+  
+
+**Output**
+
+For each player, you will output one line listing the positions that player
+can play. A player can play a position if each of their attributes is greater
+or equal to the minimum for weight and strength, and less than or equal to the
+slowest speed. If a player can play multiple positions, output them in the
+order listed above, separated by whitespace. You can not leave an extra space
+at the end of the line. If a player can play no positions, write "No
+positions" on the line.
+
+  
+
+**Sample Input**
+
+4.4 180 200
+
+5.5 350 700
+
+4.4 205 350
+
+5.2 210 500
+
+0 0 0
+
+  
+**
+
+Sample Output
+
+**
+
+Wide Receiver
+
+Lineman
+
+Wide Receiver Quarterback
+
+No positions
+
+* * *
+
+Source: **Mid-Atlantic USA 2004**
+
+[Submit](/onlinejudge/submit.do?problemId=1376)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1376)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

@@ -1,0 +1,86 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1796
+
+Euchre Results
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Anna, Betty, Cindy and Zelda like playing the card game Euchre. Euchre is a
+game for two teams of two, and each time they meet the girls split off into
+different teams. They also keep overall records of the number of games each
+player has won and lost. Anna has misplaced her won-loss results, but she does
+have the results of the other three players. Given this, she figures she can
+determine her won-loss record.
+
+  
+**Input**
+
+Input will consist of multiple problem instances. Each instance will consist
+of a single line containing six integers. The first two are the number of wins
+and losses (respectively) for Betty, the next two are the number of wins and
+losses for Cindy and the last two are the number of wins and losses for Zelda.
+A final line of six zeroes will terminate input and should not be processed.
+
+  
+**Output**
+
+For each problem instance, output a single line indicating Anna's won-loss
+record, in the format shown in the example below.
+
+  
+**Sample Input**
+
+10 3 6 7 8 5
+
+1874 2945 2030 2789 1025 3794
+
+0 0 0 0 0 0
+
+  
+**Sample Output**
+
+Anna's won-loss record is 2-11.
+
+Anna's won-loss record is 4709-110.
+
+* * *
+
+Source: **East Central North America 2003, Practice**
+
+[Submit](/onlinejudge/submit.do?problemId=796)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=796)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

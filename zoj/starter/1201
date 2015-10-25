@@ -1,0 +1,116 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1201
+
+Inversion
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+&nbsp_place_holder;&nbsp_place_holder;Let { A1,A2,...,An } be a permutation of
+the set{ 1,2,..., n}. If i < j and Ai > Aj then the pair (Ai,Aj) is called an
+"inversion" of the permutation. For example, the permutation {3, 1, 4, 2} has
+three inversions: (3,1), (3,2) and (4,2).
+
+&nbsp_place_holder;&nbsp_place_holder;The inversion table B1,B2,...,Bn of the
+permutation { A1,A2,...,An } is obtained by letting Bj be the number of
+elements to the left of j that are greater than j. (In other words, Bj is the
+number of inversions whose second component is j.) For example, the
+permutation:
+
+{ 5,9,1,8,2,6,4,7,3 }
+
+has the inversion table
+
+2 3 6 4 0 2 2 1 0
+
+since there are 2 numbers, 5 and 9, to the left of 1; 3 numbers, 5, 9 and 8,
+to the left of 2; etc.
+
+&nbsp_place_holder;&nbsp_place_holder;Perhaps the most important fact about
+inversions is Marshall Hall's observation that an inversion table uniquely
+determines the corresponding permutation. So your task is to convert a
+permutation to its inversion table, or vise versa, to convert from an
+inversion table to the corresponding permutation.
+
+  
+**Input:**  
+The input consists of several test cases. Each test case contains two lines.
+
+The first line contains a single integer N ( 1 <= N <= 50) which indicates the
+number of elements in the permutation/invertion table.
+
+The second line begins with a single charactor either 'P', meaning that the
+next N integers form a permutation, or 'I', meaning that the next N integers
+form an inversion table.
+
+Following are N integers, separated by spaces. The input is terminated by a
+line contains N=0.
+
+  
+**Output:**  
+For each case of the input output a line of intergers, seperated by a single
+space (no space at the end of the line). If the input is a permutation, your
+output will be the corresponding inversion table; if the input is an inversion
+table, your output will be the corresponding permutation.
+
+  
+**Sample Input:**  
+
+    
+    
+    9
+    P 5 9 1 8 2 6 4 7 3
+    9
+    I 2 3 6 4 0 2 2 1 0
+    0
+    
+
+  
+**Sample Output:**  
+
+    
+    
+    2 3 6 4 0 2 2 1 0
+    5 9 1 8 2 6 4 7 3
+    
+
+* * *
+
+Source: **Zhejiang University Local Contest 2002, Preliminary**
+
+[Submit](/onlinejudge/submit.do?problemId=201)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=201)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

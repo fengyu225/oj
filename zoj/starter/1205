@@ -1,0 +1,95 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1205
+
+Martian Addition
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+&nbsp_place_holder;&nbsp_place_holder;In the 22nd Century, scientists have
+discovered intelligent residents live on the Mars. Martians are very fond of
+mathematics. Every year, they would hold an Arithmetic Contest on Mars (ACM).
+The task of the contest is to calculate the sum of two 100-digit numbers, and
+the winner is the one who uses least time. This year they also invite people
+on Earth to join the contest.
+
+&nbsp_place_holder;&nbsp_place_holder;As the only delegate of Earth, you're
+sent to Mars to demonstrate the power of mankind. Fortunately you have taken
+your laptop computer with you which can help you do the job quickly. Now the
+remaining problem is only to write a short program to calculate the sum of 2
+given numbers. However, before you begin to program, you remember that the
+Martians use a 20-based number system as they usually have 20 fingers.
+
+  
+**Input:**  
+You're given several pairs of Martian numbers, each number on a line.
+
+Martian number consists of digits from 0 to 9, and lower case letters from a
+to j (lower case letters starting from a to present 10, 11, ..., 19).
+
+The length of the given number is never greater than 100.
+
+  
+**Output:**  
+For each pair of numbers, write the sum of the 2 numbers in a single line.
+
+  
+**Sample Input:**  
+
+    
+    
+    1234567890
+    abcdefghij
+    99999jjjjj
+    9999900001
+    
+
+  
+**Sample Output:**  
+
+    
+    
+    bdfi02467j
+    iiiij00000
+    
+
+* * *
+
+Source: **Zhejiang University Local Contest 2002, Preliminary**
+
+[Submit](/onlinejudge/submit.do?problemId=205)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=205)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

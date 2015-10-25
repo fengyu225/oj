@@ -1,0 +1,91 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2388
+
+Beat the Spread!
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Superbowl Sunday is nearly here. In order to pass the time waiting for the
+half-time commercials and wardrobe malfunctions, the local hackers have
+organized a betting pool on the game. Members place their bets on the sum of
+the two final scores, or on the absolute difference between the two scores.
+
+Given the winning numbers for each type of bet, can you deduce the final
+scores?
+
+  
+
+**Input**
+
+The first line of input contains n, the number of test cases. n lines follow,
+each representing a test case. Each test case gives s and d, non-negative
+integers representing the sum and (absolute) difference between the two final
+scores.
+
+  
+
+**Output**
+
+For each test case, output a line giving the two final scores, largest first.
+If there are no such scores, output a line containing "impossible". Recall
+that football scores are always non-negative integers.
+
+  
+
+**Sample Input**
+
+2
+
+40 20
+
+20 40
+
+  
+
+**Sample Output**
+
+30 10
+
+impossible
+
+* * *
+
+Source: **University of Waterloo Local Contest 2005.02.05**
+
+[Submit](/onlinejudge/submit.do?problemId=1364)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1364)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

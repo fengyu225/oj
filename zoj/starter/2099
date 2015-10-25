@@ -1,0 +1,99 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2099
+
+Frame Polygonal Line
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+You are going to read a sequence of pairs of integer numbers. Each pair
+represents the Cartesian coordinates of a point in a 2-dimentional plane. The
+first number is the x coordinate, while the second is that of y. The sequence
+represents a polygonal line. Your task is to draw a rectangle with minimal
+length of sides that exactly surrounds the polygonal line. The sides of the
+rectangle are parallel to x- and y-axis, respectively.
+
+  
+**Input**  
+  
+Input consists of several test cases. For each case, a sequence of coordinates
+is given. Each pair of x and y occupies a line, with |x| and |y| less than
+2^31. The sequence is terminated with a pair of 0's. Note that (0, 0) will
+never be considered as a point on any of the polygonal lines. An empty
+polygonal line signals the end of input.
+
+  
+**Output**  
+  
+For each test case, print in one line two pairs of numbers, which are the
+south-west and north-east corners of the surrounding rectangle. The numbers
+must be separated by one space as is indicated in the samples.
+
+  
+**Sample Input**
+
+12 56
+
+23 56
+
+13 10
+
+0 0
+
+12 34
+
+0 0
+
+0 0
+
+  
+**Sample Output**
+
+12 10 23 56
+
+12 34 12 34
+
+  
+
+* * *
+
+Author: **WENG, Kai**
+
+Source: **Zhejiang University Local Contest 2004**
+
+[Submit](/onlinejudge/submit.do?problemId=1099)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1099)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

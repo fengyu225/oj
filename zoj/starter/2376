@@ -1,0 +1,99 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2376
+
+Ants
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+An army of ants walk on a horizontal pole of length l cm, each with a constant
+speed of 1 cm/s. When a walking ant reaches an end of the pole, it
+immediatelly falls off it. When two ants meet they turn back and start walking
+in opposite directions. We know the original positions of ants on the pole,
+unfortunately, we do not know the directions in which the ants are walking.
+Your task is to compute the earliest and the latest possible times needed for
+all ants to fall off the pole.
+
+  
+
+**Input**
+
+The first line of input contains one integer giving the number of cases that
+follow. The data for each case start with two integer numbers: the length of
+the pole (in cm) and n, the number of ants residing on the pole. These two
+numbers are followed by n integers giving the position of each ant on the pole
+as the distance measured from the left end of the pole, in no particular
+order. All input integers are not bigger than 1000000 and they are separated
+by whitespace.
+
+  
+
+**Output**
+
+For each case of input, output two numbers separated by a single space. The
+first number is the earliest possible time when all ants fall off the pole (if
+the directions of their walks are chosen appropriately) and the second number
+is the latest possible such time.
+
+  
+
+**Sample Input**
+
+2
+
+10 3
+
+2 6 7
+
+214 7
+
+11 12 7 13 176 23 191
+
+  
+
+**Sample Output**
+
+4 8
+
+38 207
+
+* * *
+
+Source: **University of Waterloo Local Contest 2004.09.19**
+
+[Submit](/onlinejudge/submit.do?problemId=1352)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1352)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

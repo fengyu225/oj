@@ -1,0 +1,87 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1622
+
+Switch
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+There are N lights in a line. Given the states (on/off) of the lights, your
+task is to determine at least how many lights should be switched (from on to
+off, or from off to on), in order to make the lights on and off alternatively.
+
+  
+**Input**  
+  
+One line for each testcase.
+
+  
+The integer N (1 <= N <= 10000) comes first and is followed by N integers
+representing the states of the lights ("1" for on and "0" for off).
+
+  
+Process to the end-of-file.
+
+  
+**Output**  
+  
+For each testcase output a line consists of only the least times of switches.
+
+  
+**Sample Input**  
+  
+3 1 1 1
+
+3 1 0 1
+
+  
+**Sample Output**  
+  
+1
+
+0
+
+  
+
+* * *
+
+Author: **SHI, Xiaohan**
+
+Source: **Zhejiang University 2003 Summer Camp Qualification Contest**
+
+[Submit](/onlinejudge/submit.do?problemId=622)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=622)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

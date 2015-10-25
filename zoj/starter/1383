@@ -1,0 +1,101 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1383
+
+Binary Numbers
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Given a positive integer n, print out the positions of all 1's in its binary
+representation. The position of the least significant bit is 0.
+
+  
+**Example**  
+  
+The positions of 1's in the binary representation of 13 are 0, 2, 3.
+
+  
+**Task**  
+  
+Write a program which for each data set:
+
+reads a positive integer n,
+
+  
+computes the positions of 1's in the binary representation of n,
+
+  
+writes the result.
+
+  
+**Input**  
+  
+The first line of the input contains exactly one positive integer d equal to
+the number of data sets, 1 <= d <= 10. The data sets follow.
+
+  
+Each data set consists of exactly one line containing exactly one integer n, 1
+<= n <= 10^6.
+
+  
+**Output**  
+  
+The output should consists of exactly d lines, one line for each data set.
+
+  
+Line i, 1 <= i <= d, should contain increasing sequence of integers separated
+by single spaces - the positions of 1's in the binary representation of the
+i-th input number.
+
+  
+**Sample Input**
+
+1
+
+13
+
+  
+**Sample Output**
+
+0 2 3
+
+* * *
+
+Source: **Central Europe 2001, Practice**
+
+[Submit](/onlinejudge/submit.do?problemId=383)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=383)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

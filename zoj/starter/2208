@@ -1,0 +1,112 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2208
+
+To and Fro
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Mo and Larry have devised a way of encrypting messages. They first decide
+secretly on the number of columns and write the message (letters only) down
+the columns, padding with extra random letters so as to make a rectangular
+array of letters. For example, if the message is Theres no place like home
+on a snowy night and there are five columns, Mo would write down
+
+t o i o y
+
+h p k n n
+
+e l e a i
+
+r a h s g
+
+e c o n h
+
+s e m o t
+
+n l e w x
+
+Note that Mo includes only letters and writes them all in lower case. In this
+example, Mo used the character x to pad the message out to make a
+rectangle, although he could have used any letter.
+
+Mo then sends the message to Larry by writing the letters in each row,
+alternating left-to-right and right-to-left. So, the above would be encrypted
+as
+
+toioynnkpheleaigshareconhtomesnlewx
+
+Your job is to recover for Larry the original message (along with any extra
+padding letters) from the encrypted one.
+
+**Input**
+
+There will be multiple input sets. Input for each set will consist of two
+lines. The first line will contain an integer in the range 2. . . 20
+indicating the number of columns used. The next line is a string of up to 200
+lower case letters. The last input set is followed by a line containing a
+single 0, indicating end of input.
+
+**Output**
+
+Each input set should generate one line of output, giving the original
+plaintext message, with no spaces.
+
+**SampleInput**
+
+5
+
+toioynnkpheleaigshareconhtomesnlewx
+
+3
+
+ttyohhieneesiaabss
+
+0
+
+**SampleOutput**
+
+theresnoplacelikehomeonasnowynightx
+
+thisistheeasyoneab
+
+* * *
+
+Source: **East Central North America 2004**
+
+[Submit](/onlinejudge/submit.do?problemId=1208)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1208)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

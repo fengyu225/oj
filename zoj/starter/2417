@@ -1,0 +1,88 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2417
+
+Lowest Bit
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Given an positive integer A (1 <= A <= 100), output the lowest bit of A.
+
+For example, given A = 26, we can write A in binary form as 11010, so the
+lowest bit of A is 10, so the output should be 2.
+
+Another example goes like this: given A = 88, we can write A in binary form as
+1011000, so the lowest bit of A is 1000, so the output should be 8.
+
+  
+**Input**
+
+Each line of input contains only an integer A (1 <= A <= 100). A line
+containing "0" indicates the end of input, and this line is not a part of the
+input data.
+
+  
+**Output**
+
+For each A in the input, output a line containing only its lowest bit.
+
+  
+**Sample Input**
+
+26
+
+88
+
+0
+
+**  
+Sample Output**
+
+2
+
+8
+
+  
+
+* * *
+
+Author: **SHI, Xiaohan**
+
+Source: **Zhejiang University Local Contest 2005**
+
+[Submit](/onlinejudge/submit.do?problemId=1417)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1417)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

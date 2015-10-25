@@ -1,0 +1,141 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1216
+
+Deck
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+**Scenario**
+
+A single playing card can be placed on a table, carefully, so that the short
+edges of the card are parallel to the table's edge, and half the length of the
+card hangs over the edge of the table. If the card hung any further out, with
+its center of gravity off the table, it would fall off the table and flutter
+to the floor. The same reasoning applies if the card were placed on another
+card, rather than on a table.
+
+  
+Two playing cards can be arranged, carefully, with short edges parallel to
+table edges, to extend 3/4 of a card length beyond the edge of the table. The
+top card hangs half a card length past the edge of the bottom card. The bottom
+card hangs with only 1/4 of its length past the table's edge. The center of
+gravity of the two cards combined lies just over the edge of the table.
+
+Three playing cards can be arranged, with short edges parallel to table edges,
+and each card touching at most one other card, to extend 11/12 of a card
+length beyond the edge of the table. The top two cards extend 3/4 of a card
+length beyond the edge of the bottom card, and the bottom card extends only
+1/6 over the table's edge; the center of gravity of the three cards lines over
+the edges of the table.
+
+If you keep stacking cards so that the edges are aligned and every card has at
+most one card above it and one below it, how far out can 4 cards extend over
+the table's edge? Or 52 cards? Or 1000 cards? Or 99999?
+
+  
+**Input**
+
+Input contains several nonnegative integers, one to a line. No integer exceeds
+99999.
+
+  
+**Output**
+
+The standard output will contain, on successful completion of the program, a
+heading:
+
+  
+# Cards Overhang
+
+(that's two spaces between the words) and, following, a line for each input
+integer giving the length of the longest overhang achievable with the given
+number of cards, measured in cardlengths, and rounded to the nearest
+thousandth. The length must be expressed with at least one digit before the
+decimal point and exactly three digits after it. The number of cards is right-
+justified in column 5, and the decimal points for the lengths lie in column
+12.
+
+  
+**Sample Input**
+
+1
+
+2
+
+3
+
+4
+
+30
+
+  
+**Sample Output**
+
+The line of digits is intended to guide you in proper output alignment, and is
+not part of the output that your solution should produce.
+
+  
+12345678901234567
+
+# Cards&nbsp_place_holder; Overhang
+
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;1&
+nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
+sp_place_holder;0.500
+
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;2&
+nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
+sp_place_holder;0.750
+
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;3&
+nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
+sp_place_holder;0.917
+
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;4&
+nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nb
+sp_place_holder;1.042
+
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;30&nbsp_place_holder;
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder; 1.997
+
+* * *
+
+Source: **South Central USA 1998**
+
+[Submit](/onlinejudge/submit.do?problemId=216)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=216)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

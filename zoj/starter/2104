@@ -1,0 +1,111 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 2104
+
+Let the Balloon Rise
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+Contest time again! How excited it is to see balloons floating around. But to
+tell you a secret, the judges' favorite time is guessing the most popular
+problem. When the contest is over, they will count the balloons of each color
+and find the result.
+
+  
+This year, they decide to leave this lovely job to you.
+
+  
+**Input**  
+  
+Input contains multiple test cases. Each test case starts with a number N (0 <
+N < 1000) -- the total number of balloons distributed. The next N lines
+contain one color each. The color of a balloon is a string of up to 15 lower-
+case letters.
+
+  
+A test case with N = 0 terminates the input and this test case is not to be
+processed.
+
+  
+**Output**  
+  
+For each case, print the color of balloon for the most popular problem on a
+single line. It is guaranteed that there is a unique solution for each test
+case.
+
+  
+**Sample Input**  
+  
+5
+
+green
+
+red
+
+blue
+
+red
+
+red
+
+3
+
+pink
+
+orange
+
+pink
+
+0
+
+  
+**Sample Output**  
+  
+red
+
+pink
+
+  
+
+* * *
+
+Author: **WU, Jiazhi**
+
+Source: **Zhejiang Provincial Programming Contest 2004**
+
+[Submit](/onlinejudge/submit.do?problemId=1104)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=1104)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+

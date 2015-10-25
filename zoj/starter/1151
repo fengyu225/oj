@@ -1,0 +1,96 @@
+![](/onlinejudge/image/banner.jpg)
+
+Welcome to ZOJ
+
+[Login](/onlinejudge/login.do) | [Register](/onlinejudge/register.do)
+
+[Home](/onlinejudge/) | [Contests](/onlinejudge/showContests.do) |
+[Problems](/onlinejudge/showProblemsets.do) | [Forum](/forum/) |
+[Donation](/donation/)
+
+![](/onlinejudge/image/arrow_sub2.gif)
+
+[Problem Sets](/onlinejudge/showProblemsets.do)
+
+[Information](/onlinejudge/problemsetInfo.do?contestId=1)
+
+[Select Problem](/onlinejudge/showProblems.do?contestId=1)
+
+[Runs](/onlinejudge/showRuns.do?contestId=1)
+
+[Ranklist](/onlinejudge/showRankList.do?contestId=1&from=0&order=AC)
+
+![](/onlinejudge/image/cpc_acm.jpg)
+
+ZOJ Problem Set - 1151
+
+Word Reversal
+
+* * *
+
+Time Limit:  2 Seconds
+&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;&nbsp_place_holder;
+Memory Limit:  65536 KB
+
+* * *
+
+For each list of words, output a line with each word reversed without changing
+the order of the words.
+
+  
+**This problem contains multiple test cases!**
+
+The first line of a multiple input is an integer N, then a blank line followed
+by N input blocks. Each input block is in the format indicated in the problem
+description. There is a blank line between input blocks.
+
+The output format consists of N output blocks. There is a blank line between
+output blocks.
+
+  
+**Input**
+
+You will be given a number of test cases. The first line contains a positive
+integer indicating the number of cases to follow. Each case is given on a line
+containing a list of words separated by one space, and each word contains only
+uppercase and lowercase letters.
+
+  
+**Output**
+
+For each test case, print the output on one line.
+
+  
+**Sample Input**
+
+1
+
+3
+
+I am happy today
+
+To be or not to be
+
+I want to win the practice contest
+
+  
+**Sample Output**
+
+I ma yppah yadot
+
+oT eb ro ton ot eb
+
+I tnaw ot niw eht ecitcarp tsetnoc
+
+* * *
+
+Source: **East Central North America 1999, Practice**
+
+[Submit](/onlinejudge/submit.do?problemId=151)
+&nbsp_place_holder;&nbsp_place_holder;
+[Status](/onlinejudge/showProblemStatus.do?problemId=151)
+
+* * *
+
+Copyright @ 2001-2013, Zhejiang University ACM/ICPC Team, All rights reserved.
+
