@@ -41,35 +41,36 @@ void getsa(int *r, int *sa, int n, int m){
     for(i = 0;i < n;i++) wsf[x[i]=r[i]]++;
     for(i = 1;i < m;i++) wsf[i] += wsf[i - 1];
     for(i = n - 1;i >= 0;i--) sa[--wsf[x[i]]] = i;
-//      基基排序。（基数排序）
-//      X[i]数组记录的是一开始的r[i]的值。 
-//      wsf[i]数组记录的是值为i和小于i的元素有几个。
-//      最后一个循环则是记录排第几的数的位置。
     j = 1; p = 1;
     for(;p < n;j *= 2, m = p){
+        cout<<"m:"<<m<<endl;
+        cout<<"sa:"<<endl;
+        print_arr(sa, n);
         for(p = 0, i = n - j;i < n;i++) y[p++] = i;
         for(i = 0;i < n;i++) if(sa[i] >= j) y[p++] = sa[i] - j;
-
-//      Y[i]记录的是排名为i的第二要素的第一要素位置。
-//      Sa[i]记录的是上一次排序的元素排名第i的元素的位置。
-//      因为是二倍增排序，j就是第二要素据第一要素的距离，所以n-j第一元素的第二元素都为零，所以排名直接从零开始。
-//      第二个for循环就是单纯的记录第二要素的排名。至于为什么sa[i]>=j是因为j前面的元素不肯能作为第二元素。
+        cout<<"y:"<<endl;
+        print_arr(y, n);
+        cout<<"x:"<<endl;
+        print_arr(x, n);
+        cout<<"p="<<p<<endl;
         for(i = 0;i < n;i++) wv[i] = x[y[i]];
         for(i = 0;i < m;i++) wsf[i] = 0;
         for(i = 0;i < n;i++) wsf[wv[i]]++;
         for(i = 1;i < m;i++) wsf[i] += wsf[i - 1];
         for(i = n - 1;i >= 0;i--) sa[--wsf[wv[i]]] = y[i];
-//    与一开始一样 是基基排序。至于第一个for循环则是根据第二元素进行了排序然后赋值。因为最后一个for循环是从后往前的所以先扫到的排名低，所以要构成一个新的数列。
-//    同样的 因为第一个for循环 所以最后一个for循环就是=y[i].因为y[i]表示的是第二元素排名第i位的第一元素的位置.而sa[i]数组记录的是排名第i位的原数组的位置。
+        cout<<"sa:"<<endl;
+        print_arr(sa, n);
+        cout<<"wsf:"<<endl;
+        print_arr(wsf, m);
         t = x;
         x = y;
         y = t;
         x[sa[0]] = 0;
         for(i = 1, p = 1;i < n;i++)
             x[sa[i]] = cmp(y, sa[i - 1], sa[i], j) ? p - 1: p++;
+        cout<<endl;
     }
 }
-//    数组交换.
 //    因为一开始人为的加入了x[末尾+1] = 0;而0肯定是排在第0位的，所以x[sa[0]] = 0;只是再加一遍而已。这里p 的值表示的是不同关键值得数量。
 
 void getheight(int *r, int n){
@@ -87,10 +88,11 @@ void getheight(int *r, int n){
 }
  //     J是位置为i的后缀排名前一名的位置。如果这两个字符相等边加一。
 int main(){
-    int s[] = {'m', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i', 0};
+    //int s[] = {'m', 'i', 's', 's', 'i', 's', 's', 'i', 'p', 'p', 'i', 0};
+    int s[] = {'a', 'b', 'a', 'b', 'c'};
     int n = sizeof(s)/sizeof(s[0]);
     getsa(s, sa, n, 256);
-    for(int i=1; i<n; i++) cout<<sa[i]<<" ";
+    for(int i=0; i<n; i++) cout<<sa[i]<<" ";
     cout<<endl;
     return 0;
 }
