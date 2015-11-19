@@ -88,25 +88,13 @@ void build_height(int s_len){
     }
 }
 
-//int main(){
-//    strcpy(str, "aaa");
-//    int n = strlen(str);
-//    str[n] = 0;
-//    build_suffix_arr(n+1, 256);
-//    for(int i=0; i<n+1; i++) cout<<suffix_arr[i]<<" ";
-//    cout<<endl;
-//    build_height(n+1);
-//    for(int i=0; i<n+1; i++) cout<<height[i]<<" ";
-//    cout<<endl;
-//    return 0;
-//}
-
 int main(){
     int T;  
     long long res = 0;  
     scanf("%d",&T);  
     while(T--){  
         scanf("%s",str);  
+        //use long long to handle string with 50000 length
         long long n = strlen(str);  
         build_suffix_arr(n+1, 256);  
         build_height(n+1);  
