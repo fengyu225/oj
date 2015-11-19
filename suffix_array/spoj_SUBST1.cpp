@@ -107,11 +107,11 @@ int main(){
     scanf("%d",&T);  
     while(T--){  
         scanf("%s",str);  
-        int n = strlen(str);  
+        long long n = strlen(str);  
         build_suffix_arr(n+1, 256);  
         build_height(n+1);  
         res = n*(n+1)/2;
-        for(int i=0;i<=n;i++)  
+        for(long i=0;i<=n;i++)  
             res -= height[i];
         cout<<res<<endl;
     }  
