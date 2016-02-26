@@ -1,3 +1,7 @@
+/*
+ * https://www.codechef.com/problems/SSTORY
+ */
+
 #include <stdio.h>
 #include <cstring>
 #include <stdlib.h>
@@ -25,7 +29,7 @@
 
 using namespace std;
 
-#define max_len 50001
+#define max_len 500003
 
 int suffix_arr[max_len], rk[max_len], height[max_len];
 int working_a[max_len], working_b[max_len], cnt[max_len];
@@ -89,19 +93,47 @@ void build_height(int s_len){
 }
 
 int main(){
-    int T;  
-    long long res = 0;  
-    scanf("%d",&T);  
-    while(T--){  
-        scanf("%s",str);  
-        //use long long to handle string with 50000 length
-        long long n = strlen(str);  
-        build_suffix_arr(n+1, 256);  
-        build_height(n+1);  
-        res = n*(n+1)/2;
-        for(long i=0;i<=n;i++)  
-            res -= height[i];
-        cout<<res<<endl;
-    }  
+    scanf("%s", str);
+    int len_0 = strlen(str);
+    str[len_0] = 'Z';
+    scanf("%s", str+len_0+1);
+    int t_len = strlen(str);
+    str[t_len++] = 'A';
+    int len_1 = t_len-len_0-2;
+    cout<<str<<endl;
+    build_suffix_arr(t_len, 256);
+    build_height(t_len);
+    string ss(str);
+    for(int i=0; i<t_len; i++) cout<<ss.substr(suffix_arr[i])<<endl;
+    cout<<endl;
+    for(int i=0; i<t_len; i++) cout<<height[i]<<" ";
+    cout<<endl;
+    int s = -1, res = 0;
+    int j;
+    for(int i=len_0+1; i<t_len-1; i++){
+        j = suffix_arr[rk[i]-1];
+    //    cout<<i<<" "<<j<<endl;
+        if(j>=len_0) continue;
+        if(height[rk[i]]>res){
+            res = height[rk[i]];
+            s = i;
+        }
+    }    
+    for(int i=0; i<len_0; i++){
+        j = suffix_arr[rk[i]-1];
+    //    cout<<i<<" "<<j<<endl;
+        if(j<=len_0) continue;
+        if(height[rk[i]]>res){
+            res = height[rk[i]];
+            s = i;
+        }
+    }
+
+    if(res == 0) cout<<0<<endl;
+    else{
+        char temp[max_len];
+        strncpy(temp, str+s, res);
+        cout<<temp<<endl<<res<<endl;
+    }
     return 0;  
 } 
